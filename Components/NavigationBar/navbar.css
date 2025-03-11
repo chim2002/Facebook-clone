@@ -1,0 +1,110 @@
+.navBarBox{
+    height: 50px;
+    width: 100%;
+    background-color: #1877F2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbaricons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.navbaricon{
+    margin-left: 20px;
+    position: relative;/*help to keep the red circle in the right position*/
+    display: inline-block;/*help to keep the red circle in the right position*/
+}
+
+.navLeft{
+    flex: 3;
+}
+
+.navMiddle{
+    flex: 5;
+}
+
+.navRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.pic{
+   width: 38px;
+   height: 32px;
+   object-fit: cover;
+   border-radius: 50%;
+   margin-left: 150px;
+}
+
+
+
+.logo{
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.searchBarBox{
+    widows: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon{
+    margin-left: 10px;
+}
+
+.searchInput{
+    border: none;
+    width: 80%;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.navbarlinks{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbarlink{
+    margin-left: 15px;
+}
+
+.navbarlink:hover{
+    color: rgb(99, 96, 96);
+}
+
+.iconTag{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -5px; /* Adjust to position above the icon */
+    right: -5px; /* Adjust to position to the right of the icon */
+    border-radius: 50%; 
+    display: flex; /* Center the number inside the circle */
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;  
+    font-weight: bold; 
+    z-index: 1; /* Ensure the badge stays on top */
+
+}
